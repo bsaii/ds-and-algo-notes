@@ -40,7 +40,44 @@ list.append(9)
 
 > **Output**: 2 3 5 9
 
-### How to reverse a linked list using recursion
+### How to reverse a linked
+
+**Iteration Method**
+1. Initialize three pointers prev as None, curr as head and next as None.
+2. Iterate through the linked list. In loop, do following. 
+
+- Before changing next of current, 
+   store next node 
+`next = curr->next`
+
+- Now change next of current 
+- This is where actual reversing happens 
+`curr->next = prev` 
+
+- Move prev and curr one step forward 
+`prev = curr` 
+`curr = next`
+
+![Reverse Linked List GIF](https://media.geeksforgeeks.org/wp-content/cdn-uploads/RGIF2.gif)
+
+```python
+ # Function to reverse the linked list
+    def reverse(self):
+        prev = None
+        current = self.head
+        while(current is not None):
+            next = current.next
+            current.next = prev
+            prev = current
+            current = next
+        self.head = prev
+```
+
+> Time Complexity: O(n) 
+> 
+> Space Complexity: O(1)
+
+**Recursion Method**
 
 1. Divide the list in two parts - first node and rest of the linked list.
 2. Call reverse for the rest of the linked list.
