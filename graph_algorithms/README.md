@@ -339,6 +339,7 @@ def bfs(graph, root):
 **Complexity Analysis**:
 
 >**Time Complexity**: _O(V+E)_ where V is a number of vertices in the graph and E is a number of edges in the graph.
+
 >**Space Complexity**: _O(V)_
 
 ## Depth First Search or DFS for a Graph
@@ -355,7 +356,7 @@ Depth-first search (DFS) is an algorithm for traversing or searching tree or gra
     for all directed edges from v to w that are in G.adjacentEdges(v) do
         if vertex w is not labeled as discovered then
             recursively call DFS(G, w)
-    ```
+   ```
 
 2. A non-recursive implementation of DFS with worst-case space complexity {\displaystyle O(|E|)}O(|E|), with the possibility of duplicate vertices on the stack:
 
@@ -415,6 +416,7 @@ def dfs(graph, root):
 **Complexity Analysis**:
 
 >**Time Complexity**: _O(V+E)_ where V is a number of vertices in the graph and E is a number of edges in the graph.
+
 >**Space Complexity**: _O(V)_, since an extra visited array of size V is required.
 
 #### More Info
