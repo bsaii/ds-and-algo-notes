@@ -253,7 +253,7 @@ def knapsack_dp(capacity, weights, profits):
 ### Things to note
 
 - **How to create a matrix table in python**:
-`[ [0 for x in range(5) # the row] for x in range(7) # the column]`
+`[ [0 for x in range(5) # the column] for x in range(7) # the row]`
 - Memoization is a technique to avoid recomputation of the same subproblem.
 - ???
 - ???
