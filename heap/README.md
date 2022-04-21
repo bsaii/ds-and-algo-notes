@@ -49,9 +49,13 @@ To insert a key into a heap,
           swap node and node.parent
           node = node.parent
   ```
+**Illustration**:
 
-| ![Bubble Up 001](https://algomonster.s3.us-east-2.amazonaws.com/bubble_up/bubble_up.001.png) **1** | ![Bubble Up 002](https://algomonster.s3.us-east-2.amazonaws.com/bubble_up/bubble_up.002.png) **2** | ![Bubble Up 003](https://algomonster.s3.us-east-2.amazonaws.com/bubble_up/bubble_up.003.png) **3** |
-| ![Bubble Up 004](https://algomonster.s3.us-east-2.amazonaws.com/bubble_up/bubble_up.004.png) **4** | ![Bubble Up 005](https://algomonster.s3.us-east-2.amazonaws.com/bubble_up/bubble_up.005.png) **5** |
+![Bubble Up 001](https://algomonster.s3.us-east-2.amazonaws.com/bubble_up/bubble_up.001.png)
+![Bubble Up 002](https://algomonster.s3.us-east-2.amazonaws.com/bubble_up/bubble_up.002.png) 
+![Bubble Up 003](https://algomonster.s3.us-east-2.amazonaws.com/bubble_up/bubble_up.003.png)
+![Bubble Up 004](https://algomonster.s3.us-east-2.amazonaws.com/bubble_up/bubble_up.004.png)
+![Bubble Up 005](https://algomonster.s3.us-east-2.amazonaws.com/bubble_up/bubble_up.005.png)
 
 As the name of the algorithm suggests, it "bubbles up" the new node by swapping it with its parent until the order is correct
 
@@ -80,6 +84,7 @@ To do that, we:
         else:
             break
   ```
+**Illustration**:
 
 ![Bubble Down 001](https://algomonster.s3.us-east-2.amazonaws.com/bubble_down/bubble_down.001.png)
 ![Bubble Down 002](https://algomonster.s3.us-east-2.amazonaws.com/bubble_down/bubble_down.002.png)
