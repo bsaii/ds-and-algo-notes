@@ -9,7 +9,7 @@ Below are detailed tutorials on different data structures and algorithms with to
 3. [Stack](https://github.com/saiicodes/ds-and-algo-notes/tree/main/stack)
 4. [Queue](https://github.com/saiicodes/ds-and-algo-notes/tree/main/queue)
 5. Binary Search Tree
-6. [Heap]()
+6. [Heap](https://github.com/saiicodes/ds-and-algo-notes/tree/main/heap)
 7. [Hashing]()
 8. [Matrix]()
 9. Advanced Data Structures
