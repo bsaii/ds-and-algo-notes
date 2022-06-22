@@ -11,7 +11,7 @@ There are two kinds of heaps - Min Heap and Max Heap. A Min Heap is a tree that 
 1. almost complete, i.e. every level is filled except possibly the last(deepest) level. The filled items in the last level are left-justified.
 2. for any node, its key (priority) is greater than its parent's key (Min Heap).
 
-A Max Heap has the same property #1 and opposite property #2, i.e. for any node, its key is less than its parent's key.
+A Max Heap has the same property for #1 and opposite property for #2 of min heap, i.e. for any node, its key is less than its parent's key.
 
 **Let's play "is it a heap?" game**:
 
