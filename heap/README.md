@@ -36,7 +36,7 @@ By the first look, the heap is an odd data structure - it's required to be a com
 
 ## Operations
 
-### insert
+### i. insert
 
 To insert a key into a heap,
 
@@ -61,7 +61,7 @@ As the name of the algorithm suggests, it "bubbles up" the new node by swapping 
 
 Since the height of a heap is _O(log(N))_, the complexity of bubble-up is _O(log(N))_.
 
-### delete_min
+### ii. delete_min
 
 What this operation does is:
 
